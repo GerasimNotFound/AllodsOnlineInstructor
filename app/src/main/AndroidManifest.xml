@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.allodsonlineinstructor">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AllodsOnlineInstructor">
+        <activity
+            android:name=".Demons"
+            android:exported="true" />
+        <activity
+            android:name=".Enginier"
+            android:exported="true" />
+        <activity
+            android:name=".Bards"
+            android:exported="true" />
+        <activity
+            android:name=".Warriors"
+            android:exported="true" />
+        <activity
+            android:name=".Bows"
+            android:exported="true" />
+        <activity
+            android:name=".Mistik"
+            android:exported="true" />
+        <activity
+            android:name=".Paladin"
+            android:exported="true" />
+        <activity
+            android:name=".Prist"
+            android:exported="true" />
+        <activity
+            android:name=".Necro"
+            android:exported="true" />
+        <activity
+            android:name=".Mages"
+            android:exported="true" />
+        <activity
+            android:name=".Druid"
+            android:exported="true" />
+        <activity
+            android:name=".Classes"
+            android:exported="true" />
+        <activity
+            android:name=".BasicMeha"
+            android:exported="true" />
+        <activity
+            android:name=".ProfiText"
+            android:exported="true" />
+        <activity
+            android:name=".Mode"
+            android:exported="true" />
+        <activity
+            android:name=".Sections"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
