@@ -30,17 +30,13 @@
                 android:textColor="#423939"
                 android:textSize="40dp" />
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="vertical">
 
-                <ImageButton
-                    android:id="@+id/Druid"
-                    android:layout_width="520dp"
-                    android:layout_height="70dp"
-                    android:background="@drawable/img_3"
-                    app:srcCompat="@drawable/img_10" />
+            <ImageButton
+                android:id="@+id/Druid"
+                android:layout_width="520dp"
+                android:layout_height="70dp"
+                android:background="@drawable/img_3"
+                app:srcCompat="@drawable/img_10" />
 
                 <ImageButton
                     android:id="@+id/Mage"
@@ -111,7 +107,7 @@
                     android:layout_height="70dp"
                     android:background="@drawable/img_3"
                     app:srcCompat="@drawable/img_4" />
-            </LinearLayout>
+
 
         </LinearLayout>
     </ScrollView>

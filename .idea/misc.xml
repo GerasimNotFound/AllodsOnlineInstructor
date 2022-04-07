@@ -3,6 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/ProBook_22/AndroidStudioProjects/AllodsOnlineInstructor2/app/src/main/res/layout/activity_classes.xml" value="0.1" />
+        <entry key="..\:/Users/ProBook_22/AndroidStudioProjects/AllodsOnlineInstructor2/app/src/main/res/layout/activity_druid.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/ProBook_22/AndroidStudioProjects/AllodsOnlineInstructor2/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/ProBook_22/AndroidStudioProjects/AllodsOnlineInstructor2/app/src/main/res/layout/activity_paladin.xml" value="0.1" />
+        <entry key="..\:/Users/ProBook_22/AndroidStudioProjects/AllodsOnlineInstructor2/app/src/main/res/layout/activity_prist.xml" value="0.1" />
         <entry key="..\:/Users/geras/AndroidStudioProjects/AllodsOnlineInstructor/app/src/main/res/layout/activity_bards.xml" value="0.2653985507246377" />
         <entry key="..\:/Users/geras/AndroidStudioProjects/AllodsOnlineInstructor/app/src/main/res/layout/activity_basic_meha.xml" value="0.2653985507246377" />
         <entry key="..\:/Users/geras/AndroidStudioProjects/AllodsOnlineInstructor/app/src/main/res/layout/activity_basic_selection.xml" value="0.27219202898550726" />
