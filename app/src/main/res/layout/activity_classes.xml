@@ -30,80 +30,88 @@
                 android:textColor="#423939"
                 android:textSize="40dp" />
 
-            <ImageButton
-                android:id="@+id/Druid"
-                android:layout_width="520dp"
-                android:layout_height="70dp"
-                android:background="@drawable/img_3"
-                app:srcCompat="@drawable/img_10" />
-            <ImageButton
-                android:id="@+id/Mage"
-                android:layout_width="520dp"
-                android:layout_height="70dp"
-                android:background="@drawable/img_3"
-                app:srcCompat="@drawable/img_7" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
 
-            <ImageButton
-                android:id="@+id/Necr"
-                android:layout_width="520dp"
-                android:layout_height="70dp"
-                android:background="@drawable/img_3"
-                app:srcCompat="@drawable/img_13" />
+                <ImageButton
+                    android:id="@+id/Druid"
+                    android:layout_width="520dp"
+                    android:layout_height="70dp"
+                    android:background="@drawable/img_3"
+                    app:srcCompat="@drawable/img_10" />
 
-            <ImageButton
-                android:id="@+id/Jryak"
-                android:layout_width="520dp"
-                android:layout_height="70dp"
-                android:background="@drawable/img_3"
-                app:srcCompat="@drawable/img_11" />
+                <ImageButton
+                    android:id="@+id/Mage"
+                    android:layout_width="520dp"
+                    android:layout_height="70dp"
+                    android:background="@drawable/img_3"
+                    app:srcCompat="@drawable/img_7" />
 
-            <ImageButton
-                android:id="@+id/Pal"
-                android:layout_width="520dp"
-                android:layout_height="70dp"
-                android:background="@drawable/img_3"
-                app:srcCompat="@drawable/img_9" />
-            <ImageButton
-                android:id="@+id/Mist"
-                android:layout_width="520dp"
-                android:layout_height="70dp"
-                android:background="@drawable/img_3"
-                app:srcCompat="@drawable/img_8" />
+                <ImageButton
+                    android:id="@+id/Necr"
+                    android:layout_width="520dp"
+                    android:layout_height="70dp"
+                    android:background="@drawable/img_3"
+                    app:srcCompat="@drawable/img_13" />
 
-            <ImageButton
-                android:id="@+id/Bow"
-                android:layout_width="520dp"
-                android:layout_height="70dp"
-                android:background="@drawable/img_3"
-                app:srcCompat="@drawable/img_6" />
+                <ImageButton
+                    android:id="@+id/Jryak"
+                    android:layout_width="520dp"
+                    android:layout_height="70dp"
+                    android:background="@drawable/img_3"
+                    app:srcCompat="@drawable/img_11" />
 
-            <ImageButton
-                android:id="@+id/War"
-                android:layout_width="520dp"
-                android:layout_height="70dp"
-                android:background="@drawable/img_3"
-                app:srcCompat="@drawable/img_5" />
+                <ImageButton
+                    android:id="@+id/Pal"
+                    android:layout_width="520dp"
+                    android:layout_height="70dp"
+                    android:background="@drawable/img_3"
+                    app:srcCompat="@drawable/img_9" />
 
-            <ImageButton
-                android:id="@+id/Bard"
-                android:layout_width="520dp"
-                android:layout_height="70dp"
-                android:background="@drawable/img_3"
-                app:srcCompat="@drawable/img_14" />
+                <ImageButton
+                    android:id="@+id/Mist"
+                    android:layout_width="520dp"
+                    android:layout_height="70dp"
+                    android:background="@drawable/img_3"
+                    app:srcCompat="@drawable/img_8" />
 
-            <ImageButton
-                android:id="@+id/Engenier"
-                android:layout_width="520dp"
-                android:layout_height="70dp"
-                android:background="@drawable/img_3"
-                app:srcCompat="@drawable/img_12" />
+                <ImageButton
+                    android:id="@+id/Bow"
+                    android:layout_width="520dp"
+                    android:layout_height="70dp"
+                    android:background="@drawable/img_3"
+                    app:srcCompat="@drawable/img_6" />
 
-            <ImageButton
-                android:id="@+id/Demon"
-                android:layout_width="520dp"
-                android:layout_height="70dp"
-                android:background="@drawable/img_3"
-                app:srcCompat="@drawable/img_4" />
+                <ImageButton
+                    android:id="@+id/War"
+                    android:layout_width="520dp"
+                    android:layout_height="70dp"
+                    android:background="@drawable/img_3"
+                    app:srcCompat="@drawable/img_5" />
+
+                <ImageButton
+                    android:id="@+id/Bard"
+                    android:layout_width="520dp"
+                    android:layout_height="70dp"
+                    android:background="@drawable/img_3"
+                    app:srcCompat="@drawable/img_14" />
+
+                <ImageButton
+                    android:id="@+id/Engenier"
+                    android:layout_width="520dp"
+                    android:layout_height="70dp"
+                    android:background="@drawable/img_3"
+                    app:srcCompat="@drawable/img_12" />
+
+                <ImageButton
+                    android:id="@+id/Demon"
+                    android:layout_width="520dp"
+                    android:layout_height="70dp"
+                    android:background="@drawable/img_3"
+                    app:srcCompat="@drawable/img_4" />
+            </LinearLayout>
 
         </LinearLayout>
     </ScrollView>

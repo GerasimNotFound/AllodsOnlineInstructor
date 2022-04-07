@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/img_2"
+    android:background="@drawable/img_20"
     tools:context=".Sections">
 
     <Button
@@ -40,17 +40,17 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/goNext"
-        android:layout_width="374dp"
-        android:layout_height="59dp"
-        android:text="А ТЕПЕРЬ ПОДРАЗДЕЛ"
-        android:textColor="#FB0505"
+        android:id="@+id/gonext"
+        android:layout_width="364dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="560dp"
+        android:text="Выберите Подраздел"
+        android:textAlignment="center"
+        android:textColor="#00BCD4"
         android:textSize="34dp"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="0.659"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.08" />
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

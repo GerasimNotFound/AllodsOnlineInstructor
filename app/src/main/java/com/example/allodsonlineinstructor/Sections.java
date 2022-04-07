@@ -16,7 +16,7 @@ public class Sections extends AppCompatActivity implements View.OnClickListener 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sections);
-        goNext = findViewById(R.id.goNext);
+        goNext = findViewById(R.id.gonext);
         basicmeha = findViewById(R.id.basicmeha);
         classes = findViewById(R.id.classes);
         basicmeha.setOnClickListener(this);

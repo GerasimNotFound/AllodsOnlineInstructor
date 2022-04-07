@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/img_3"
+    android:background="@drawable/img_19"
     tools:context=".Necro">
     <ScrollView
         android:layout_width="match_parent"
@@ -26,40 +26,6 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 app:srcCompat="@drawable/img" />
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="231dp"
-                android:orientation="horizontal">
-
-                <ImageView
-                    android:id="@+id/imageView10"
-                    android:layout_width="250dp"
-                    android:layout_height="300dp"
-                    android:layout_weight="1"
-                    app:srcCompat="@drawable/img_36" />
-
-                <ImageView
-                    android:id="@+id/imageView23"
-                    android:layout_width="250dp"
-                    android:layout_height="300dp"
-                    android:layout_weight="1"
-                    app:srcCompat="@drawable/img_37" />
-
-                <ImageView
-                    android:id="@+id/imageView24"
-                    android:layout_width="250dp"
-                    android:layout_height="300dp"
-                    android:layout_weight="1"
-                    app:srcCompat="@drawable/img_38" />
-
-                <ImageView
-                    android:id="@+id/imageView25"
-                    android:layout_width="250dp"
-                    android:layout_height="300dp"
-                    android:layout_weight="1"
-                    app:srcCompat="@drawable/img_39" />
-            </LinearLayout>
 
             <TextView
                 android:id="@+id/textView8"
@@ -83,41 +49,6 @@
                 android:layout_height="wrap_content"
                 app:srcCompat="@drawable/img_16" />
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="231dp"
-                android:orientation="horizontal">
-
-                <ImageView
-                    android:id="@+id/imageView27"
-                    android:layout_width="250dp"
-                    android:layout_height="300dp"
-                    android:layout_weight="1"
-                    app:srcCompat="@drawable/img_40" />
-
-                <ImageView
-                    android:id="@+id/imageView28"
-                    android:layout_width="250dp"
-                    android:layout_height="300dp"
-                    android:layout_weight="1"
-                    app:srcCompat="@drawable/img_41" />
-
-                <ImageView
-                    android:id="@+id/imageView29"
-                    android:layout_width="250dp"
-                    android:layout_height="300dp"
-                    android:layout_weight="1"
-                    app:srcCompat="@drawable/img_42" />
-
-                <ImageView
-                    android:id="@+id/imageView30"
-                    android:layout_width="250dp"
-                    android:layout_height="300dp"
-                    android:layout_weight="1"
-                    app:srcCompat="@drawable/img_43" />
-
-            </LinearLayout>
-
             <TextView
                 android:id="@+id/textView9"
                 android:layout_width="wrap_content"
@@ -137,47 +68,6 @@
                 android:layout_height="wrap_content"
                 app:srcCompat="@drawable/img_18" />
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="horizontal">
-
-                <ImageView
-                    android:id="@+id/imageView32"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    app:srcCompat="@drawable/img_44" />
-            </LinearLayout>
-
-            <TextView
-                android:id="@+id/textView10"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textSize="20dp"
-                android:text="Основная задача некроманта в течении боя – поддержание тикающих умений (дотов) на большом количестве целей, поддержание уязвимости на цели, которую группа решила поскорее убить.
-
-Ротация у некроманта совсем простая и выглядит следующим образом:
-
-Дыхание Смерти => Вампиризм => Дыхание Смерти (для набора решимости и увеличения количества бафа «Мрачный жнец», который накапливается до 3 ед. и увеличивает урон от дотов) => Ритуал Чумы + Вирус в скопление игроков => Ритуал боли в цель, что стоит подальше от остальных (которую не задел Ритуал Чумы) => снова повторение накладывания на цель Дыхания Смерти\Вампиризма (вирус необходимо подготавливать и раскидывать в разные цели, чтобы поддерживать его на большем количестве игроков).
-
-Защитные умения:
-
-Щит крови, Кровопускание – единственные защитные умения некроманта, которые можно поддерживать постоянно. Некромант довольно хилый класс и их стоит комбинировать с декоктом\негасимым светом при плотном наседании вражеских ДД (например декокт+кровопускание, щит крови+негасимка).
-Вуаль тьмы – этакий щит на 4-6 сек. (в зависимости от ранга), в котором ваш уровень здоровья падает до 1% (одного %), однако вы неуязвимы к любому урону. Также вуаль снимает негативные эффекты с персонажа, которые можно развеять. За время действия вуали критически необходимо исцелиться \ исцелить дружественную цель.
-Подготовка переливания крови – при подготовке входящий в некроманта урон уменьшается на 10% благодаря вехе Эгида тьмы.
-Бурст умения:
-
-Длань тьмы – умение, используемое для максимального нанесения урона по площади. Длань бьет по площади конусом в области перед собой, урон при этом наносит огромный.
-Тёмная мощь – это умение можно использовать при бурсте, а также для контроля. Умение увеличивает наносимый вами урон, позволяет заготавливать умения на ходу, а также дарует дополнительные возможности душегубке (питомец вешает «ведро» каждой атакой).
-Плеть Обречённого – поддерживаемое умение с большим периодическим уроном, которое зависит от уровня здоровья некроманта (чем меньше уровень здоровья – тем больше урона). По окончанию каста накладывает раны и уязвимость.
-Прочие умения:
-
-Кровопускание – лужа, в которой некромант должен находиться постоянно. Умение уменьшает гкд, получаемый им урон на 10%, а также время восстановления некоторых способностей. По сути, всё время находясь в луже, гкд некроманта составляет 0,8 сек. (т.е на 20% меньше, чем у остальных классов).
-Страх смерти – контроль.
-Мир призраков – длительный контроль, в некоторых вариациях билда может изучаться для тех или иных активностей.
-Шаг сквозь тени – позволяет быстро набрать кровь, но основная его функция – массовая уязвимость по вражеским целям.
-Кровавый пир – позволяет быстро набрать кровь, вешает ускорение на дружественные цели." />
         </LinearLayout>
     </ScrollView>
 
