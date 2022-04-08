@@ -40,7 +40,7 @@ public class ImageSkillNum extends View {
     protected void onDraw(Canvas canvas) {
         Paint p = new Paint();
         p.setTextSize(80);
-        p.setColor(Color.WHITE);
+        p.setColor(Color.CYAN);
         canvas.drawText(a + "",110,150,p);
         super.onDraw(canvas);
     }
