@@ -7,10 +7,11 @@ import android.media.Image;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 public class Classes extends AppCompatActivity implements View.OnClickListener {
-    ImageButton Druid, Mage, Necr, Jryak, Pal, Mist, Archer, War, Bard, Engenier,Demonologist;
+    ImageView Druid, Mage, Necr, Jryak, Pal, Mist, Archer, War, Bard, Engenier,Demonologist;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AllodsOnlineInstructor">
         <activity
+            android:name=".CustomDru"
+            android:exported="true" />
+        <activity
             android:name=".Demons"
             android:exported="true" />
         <activity
