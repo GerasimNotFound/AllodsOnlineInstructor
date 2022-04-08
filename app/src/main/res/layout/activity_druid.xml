@@ -35,7 +35,7 @@
                 android:layout_gravity="center"
                 android:layout_height="60dp"
                 app:shapeAppearance="@style/ShapeAppearanceOverlay.Avatar"
-                app:srcCompat="@drawable/img" />
+                app:srcCompat="@drawable/img_31" />
 
 
             <TextView
@@ -68,7 +68,7 @@
                 android:layout_gravity="center"
 
                 app:shapeAppearance="@style/ShapeAppearanceOverlay.Avatar"
-                app:srcCompat="@drawable/img_18" />
+                app:srcCompat="@drawable/img" />
 
             <TextView
                 android:id="@+id/textView4"
@@ -87,7 +87,7 @@
                 android:layout_gravity="center"
 
                 app:shapeAppearance="@style/ShapeAppearanceOverlay.Avatar"
-                app:srcCompat="@drawable/img_16" />
+                app:srcCompat="@drawable/img_18" />
 
 
             <TextView

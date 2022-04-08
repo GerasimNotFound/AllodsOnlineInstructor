@@ -21,10 +21,6 @@ public class Sections extends AppCompatActivity implements View.OnClickListener 
         classes = findViewById(R.id.classes);
         basicmeha.setOnClickListener(this);
         classes.setOnClickListener(this);
-    }
-
-    @Override
-    public void onClick(View view) {
         Intent intent = new Intent(this, BasicMeha.class);
         basicmeha.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -39,5 +35,8 @@ public class Sections extends AppCompatActivity implements View.OnClickListener 
                 startActivity(intent1);
             }
         });
+    }
+    @Override
+    public void onClick(View view) {
     }
 }

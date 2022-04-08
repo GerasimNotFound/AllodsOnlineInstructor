@@ -21,10 +21,6 @@ public class Mode extends AppCompatActivity implements View.OnClickListener {
         profi = findViewById(R.id.profi);
         basic.setOnClickListener(this);
         profi.setOnClickListener(this);
-    }
-
-    @Override
-    public void onClick(View view) {
         Intent intent = new Intent(this, Sections.class);
         basic.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -39,5 +35,8 @@ public class Mode extends AppCompatActivity implements View.OnClickListener {
                 startActivity(intent1);
             }
         });
+    }
+    @Override
+    public void onClick(View view) {
     }
 }

@@ -16,10 +16,6 @@ public class Druid extends AppCompatActivity implements View.OnClickListener {
         setContentView(R.layout.activity_druid);
         a = findViewById(R.id.a);
         a.setOnClickListener(this);
-    }
-
-    @Override
-    public void onClick(View view) {
         Intent intent = new Intent(this, CustomDru.class);
         a.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -27,5 +23,8 @@ public class Druid extends AppCompatActivity implements View.OnClickListener {
                 startActivity(intent);
             }
         });
+    }
+    @Override
+    public void onClick(View view) {
     }
 }

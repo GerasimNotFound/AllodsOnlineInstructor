@@ -38,10 +38,6 @@ public class Classes extends AppCompatActivity implements View.OnClickListener {
         Bard.setOnClickListener(this);
         Engenier.setOnClickListener(this);
         Demonologist.setOnClickListener(this);
-    }
-
-    @Override
-    public void onClick(View view) {
         Intent intent = new Intent(this, Druid.class);
         Intent intent2 = new Intent(this, Mages.class);
         Intent intent3 = new Intent(this, Necro.class);
@@ -119,5 +115,8 @@ public class Classes extends AppCompatActivity implements View.OnClickListener {
                 startActivity(intent11);
             }
         });
+    }
+    @Override
+    public void onClick(View view) {
     }
 }

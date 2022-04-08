@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/img_19"
+    android:background="@drawable/img_21"
     tools:context=".Necro">
     <ScrollView
         android:layout_width="match_parent"
@@ -31,6 +31,7 @@
                 android:id="@+id/textView8"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:textColor="#0A38C1"
                 android:textSize="20dp"
                 android:text="PvE ротация Некроманта в аспекте Нападения основывается на следующем:
 
@@ -47,12 +48,13 @@
                 android:id="@+id/imageView26"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                app:srcCompat="@drawable/img_16" />
+                app:srcCompat="@drawable/img_18" />
 
             <TextView
                 android:id="@+id/textView9"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:textColor="#0A38C1"
                 android:textSize="20dp"
                 android:text="Панацея – небольшой отхил, действующий на пати.
 Щит крови – щит, под вехами увеличивает входящее исцеление некроманта.
@@ -66,7 +68,7 @@
                 android:id="@+id/imageView31"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                app:srcCompat="@drawable/img_18" />
+                app:srcCompat="@drawable/img_31" />
 
         </LinearLayout>
     </ScrollView>
