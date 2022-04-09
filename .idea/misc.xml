@@ -3,14 +3,19 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/ProBook_22/AndroidStudioProjects/AllodsOnlineInstructor2/app/src/main/res/layout/activity_classes.xml" value="0.1" />
+        <entry key="..\:/Users/ProBook_22/AndroidStudioProjects/AllodsOnlineInstructor2/app/src/main/res/layout/activity_custom_dru.xml" value="0.1" />
+        <entry key="..\:/Users/ProBook_22/AndroidStudioProjects/AllodsOnlineInstructor2/app/src/main/res/layout/activity_druid.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/ProBook_22/AndroidStudioProjects/AllodsOnlineInstructor2/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/ProBook_22/AndroidStudioProjects/AllodsOnlineInstructor2/app/src/main/res/layout/activity_paladin.xml" value="0.1" />
+        <entry key="..\:/Users/ProBook_22/AndroidStudioProjects/AllodsOnlineInstructor2/app/src/main/res/layout/activity_prist.xml" value="0.1" />
         <entry key="..\:/Users/geras/AndroidStudioProjects/AllodsOnlineInstructor/app/src/main/res/layout/activity_bards.xml" value="0.2653985507246377" />
         <entry key="..\:/Users/geras/AndroidStudioProjects/AllodsOnlineInstructor/app/src/main/res/layout/activity_basic_meha.xml" value="0.2653985507246377" />
         <entry key="..\:/Users/geras/AndroidStudioProjects/AllodsOnlineInstructor/app/src/main/res/layout/activity_basic_selection.xml" value="0.27219202898550726" />
         <entry key="..\:/Users/geras/AndroidStudioProjects/AllodsOnlineInstructor/app/src/main/res/layout/activity_bows.xml" value="0.22826086956521738" />
-        <entry key="..\:/Users/geras/AndroidStudioProjects/AllodsOnlineInstructor/app/src/main/res/layout/activity_classes.xml" value="0.33" />
-        <entry key="..\:/Users/geras/AndroidStudioProjects/AllodsOnlineInstructor/app/src/main/res/layout/activity_custom_dru.xml" value="0.33" />
+        <entry key="..\:/Users/geras/AndroidStudioProjects/AllodsOnlineInstructor/app/src/main/res/layout/activity_classes.xml" value="0.25" />
         <entry key="..\:/Users/geras/AndroidStudioProjects/AllodsOnlineInstructor/app/src/main/res/layout/activity_demons.xml" value="0.2653985507246377" />
-        <entry key="..\:/Users/geras/AndroidStudioProjects/AllodsOnlineInstructor/app/src/main/res/layout/activity_druid.xml" value="0.33" />
+        <entry key="..\:/Users/geras/AndroidStudioProjects/AllodsOnlineInstructor/app/src/main/res/layout/activity_druid.xml" value="0.25" />
         <entry key="..\:/Users/geras/AndroidStudioProjects/AllodsOnlineInstructor/app/src/main/res/layout/activity_enginier.xml" value="0.2653985507246377" />
         <entry key="..\:/Users/geras/AndroidStudioProjects/AllodsOnlineInstructor/app/src/main/res/layout/activity_mages.xml" value="0.28629524196827977" />
         <entry key="..\:/Users/geras/AndroidStudioProjects/AllodsOnlineInstructor/app/src/main/res/layout/activity_main.xml" value="0.28442028985507245" />
@@ -20,7 +25,7 @@
         <entry key="..\:/Users/geras/AndroidStudioProjects/AllodsOnlineInstructor/app/src/main/res/layout/activity_paladin.xml" value="0.22826086956521738" />
         <entry key="..\:/Users/geras/AndroidStudioProjects/AllodsOnlineInstructor/app/src/main/res/layout/activity_prist.xml" value="0.22826086956521738" />
         <entry key="..\:/Users/geras/AndroidStudioProjects/AllodsOnlineInstructor/app/src/main/res/layout/activity_profi_text.xml" value="0.27219202898550726" />
-        <entry key="..\:/Users/geras/AndroidStudioProjects/AllodsOnlineInstructor/app/src/main/res/layout/activity_sections.xml" value="0.25" />
+        <entry key="..\:/Users/geras/AndroidStudioProjects/AllodsOnlineInstructor/app/src/main/res/layout/activity_sections.xml" value="0.33" />
         <entry key="..\:/Users/geras/AndroidStudioProjects/AllodsOnlineInstructor/app/src/main/res/layout/activity_warriors.xml" value="0.22826086956521738" />
         <entry key="..\:/Users/geras/AndroidStudioProjects/AllodsOnlineInstructor/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.35648148148148145" />
         <entry key="..\:/Users/geras/AndroidStudioProjects/AllodsOnlineInstructor/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.3416666666666667" />

@@ -21,20 +21,26 @@ import com.google.android.material.shape.ShapeAppearanceModel;
 
 public class ImageSkillNum extends View {
     int a = 0;
+    SharedPreferences sharedPreferences;
     public ImageSkillNum(Context context) {
         super(context);
     }
 
     public ImageSkillNum(Context context, @Nullable AttributeSet attrs) {
         super(context, attrs);
+        load();
     }
 
     public ImageSkillNum(Context context, @Nullable AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
+        load();
+
+
     }
 
     public ImageSkillNum(Context context, @Nullable AttributeSet attrs, int defStyleAttr, int defStyleRes) {
         super(context, attrs, defStyleAttr, defStyleRes);
+        load();
     }
     @Override
     protected void onDraw(Canvas canvas) {
@@ -51,7 +57,20 @@ public class ImageSkillNum extends View {
         if(a > 3){
             a = 0;
         }
+        save();
         invalidate();
         return super.onTouchEvent(event);
+    }
+    void save(){
+        sharedPreferences = getContext().getSharedPreferences("prefs",Context.MODE_PRIVATE);
+        SharedPreferences.Editor editor = sharedPreferences.edit();
+        editor.putInt(""+getId(),a);
+        editor.commit();
+
+    }
+    void load(){
+        sharedPreferences = getContext().getSharedPreferences("prefs",Context.MODE_PRIVATE);
+        a = sharedPreferences.getInt(getId()+"",0);
+
     }
 }
